@@ -1,0 +1,42 @@
+/* styles.css */
+body {
+    background-color: lightblue;
+}
+
+.movie-img {
+    width: 150%;
+    height: auto;
+    max-height: 350px; /* Adjust the max-height as needed */
+    object-fit: cover;
+}
+
+.tv-show-img {
+    width: 250px; /* Set the desired width */
+    height: 350px; /* Set the desired height */
+    object-fit: cover; /* Ensure the image fits well within the dimensions */
+        }
+.mb-4 {
+    margin-bottom: 1.5rem;
+        }
+
+/* Style the footer to ensure it stays at the bottom of the page */
+footer {
+    background-color: black;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    margin-top: 20px; /* Add white space above the footer */
+}
+
+/* Ensure the footer stays at the bottom of the page */
+body, html {
+    height: 100%; /* Set the height to 100% for both body and html */
+    margin: 0; /* Remove default margin */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Arrange children in a column */
+}
+
+/* Main content container */
+.container {
+    flex: 1; /* Allow the container to grow and take up available space */
+}
